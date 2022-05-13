@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script>
+//Ex.1
+ window.alert ("Hello world!");
+//Ex.2  
+ var person= window.prompt( "Please enter your name", "Write here" );
+ if (person==null)
+ {
+   document.write("You pressed cancel.");
+ }
+ else{
+
+  document.write("Hello, "+person+"<br>");
+ }
+ //Ex.3
+ var first= parseInt( window.prompt( "Please enter the first number", "Write here" ));
+ var second=  parseInt(window.prompt( "Please enter the second number", "Write here" ));
+ var operator= window.prompt( "Please enter the operator (+,-,* or /):", "Write here" );
+ if (operator=='+')
+ {
+   document.write(first+operator+second+"="+(first+second)+"<br>");
+ }
+ else if(operator=='-'){
+
+  document.write(first+operator+second+"="+(first-second)+"<br>");
+ }
+ else if(operator=='*'){
+
+  document.write(first+operator+second+"="+(first*second)+"<br>");
+ }
+ else if(operator=='/'){
+
+  document.write(first+operator+second+"="+(first/second)+"<br>");
+ }
+ else{
+document.write("You've entered another thing.<br>");
+ }
+ //Ex.4
+ var i=1;
+  while(i<=30){
+   document.write(i+",");
+   i++;
+ }
+ document.write("<br>");
+ //Ex.5
+ i=1;
+ while(i<=30){
+   document.write(i+"<br>");
+   i++;
+ }
+ //Ex.6
+ var sum=0; 
+ var count=0;
+ var num=  parseInt(window.prompt( "Please enter numbers, to end enter 0") );
+ while(num!=0){
+  count++;
+  sum+=num;
+  num=  parseInt(window.prompt( "Please enter numbers, to end enter 0") );
+ }
+  document.write("You've entered "+count+" numbers. Their sum is:"+sum+", and their average is:"+ (sum/count)+".<br>");
+  //Ex.7
+ var fact=1,i=1; 
+ var number=  parseInt(window.prompt( "Please enter a number") );
+ while(number>=i){
+  fact*=i;
+  i++;
+ }
+  document.write(number+"!="+fact+"<br>");
+  //Ex.8
+ var base= parseInt( window.prompt( "Please enter the base", "Write here" ));
+ var power=  parseInt(window.prompt( "Please enter the power", "Write here" ));
+ var res=1,i=1; 
+ while(power>=i){
+  res*=base;
+  i++;
+ }
+ document.write(base+"^"+power+"="+res+".<br>");
+  </script>
+ </head>
+ <body>
+  
+
+ </body>
+</html>
