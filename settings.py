@@ -10,7 +10,7 @@ def init():
     total_scrolls = None
     scroll_time = None
     number_of_posts = None
-
+    #Hello
     # current_scrolls = 0
     # old_height = 0
 
