@@ -1,3 +1,3 @@
 # RuppinISEW
 
-This is an Excersize done for Ruppin Computer Engineering in the course Integrated Software Engineering Workshop.
+This is an Exercise done for Ruppin Computer Engineering in the course Integrated Software Engineering Workshop.
