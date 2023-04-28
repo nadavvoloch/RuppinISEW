@@ -13,7 +13,8 @@ def init():
     #Hello
     # current_scrolls = 0
     # old_height = 0
-
+    a=0
+    b=1
     driver = None
     selectors = None
     params = None
